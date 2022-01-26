@@ -5,7 +5,7 @@
 <br>Acesso: https://valdineicfonseca.github.io/DevClub/MSONE/mission-one/
 <br>Github: https://github.com/valdineicfonseca/DevClub/tree/master/MSONE/mission-one
 
-![image](https://user-images.githubusercontent.com/20301001/150564828-24eda5fc-994f-462d-bf1b-65da29d5ca59.png)
+![image](https://user-images.githubusercontent.com/20301001/151188326-af56c656-56f4-48c9-8000-25dfcacaad39.png)
 
 # Site Dev contabilidade
 ## HTML/JS/CSS
