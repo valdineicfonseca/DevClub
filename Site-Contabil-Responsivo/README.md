@@ -3,4 +3,6 @@ Site responsivo utilizando:
 HTML - CSS - JavaScript - Bootstrap 
 
 <br>
-![image](https://user-images.githubusercontent.com/20301001/153022848-27963e37-183d-426e-bc6c-17d705734d72.png)
+
+![image](https://user-images.githubusercontent.com/20301001/153023281-5770e3f0-395a-40df-9abe-36567fa8aa2e.png)
+
