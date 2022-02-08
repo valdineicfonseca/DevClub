@@ -1,4 +1,8 @@
 
+Site utilizando as tecnologias:
+
+HTML - CSS - JavaScript - Bootstrap
+
 Acesso: https://valdineicfonseca.github.io/DevClub/Site-Contabil-Responsivo/
 <br>
 Github: https://github.com/valdineicfonseca/DevClub/tree/main/Site-Contabil-CSS-JS
