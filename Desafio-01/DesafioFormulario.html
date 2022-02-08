@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Formulário - Aula 21</title>
+</head>
+
+<body>
+
+    <fieldset>
+        <legend>Cadastro</legend>
+        <form action="" method="post" enctype="multipart/form-data">
+            <label>Nome <br>
+                <input name="nome" type="text" required>
+            </label>
+            <p>
+                <label>Idade <br>
+                    <input name="idade" inputmode="numeric"  type="number" min="12" required>
+                </label>
+            </p>
+            
+            <p>
+                <label>Data de nascimento <br>
+                    <input name="dt_nascimento" type="date" required>
+                </label>
+            </p>
+
+            <p>
+                <label>Onde você possui conta: <br>
+                    <input name="istagram" type="checkbox">Instagram
+                    <input name="facebook" type="checkbox">Facebook
+                    <input name="youtube" type="checkbox">Youtube
+                </label>
+            </p>
+            <p>
+                <label>Sexo<br>
+                    <input name="sexo" type="radio" value="masculino">Masculino
+                    <input name="sexo" type="radio" value="feminino">Feminino
+                </label>
+            </p>
+            <p>
+                <label>Cor dos Olhos
+                    <input name="cor" type="color">                    
+                </label>
+            </p>
+            <p>
+                <label>Biografia <br>
+                    <textarea name="biografia" rows="3" cols="30"></textarea>                   
+                </label>
+            </p>
+            <p>
+                <label>Foto de perfil <br>
+                    <input name="foto" type="file" accept="image/*">                    
+                </label>
+            </p>
+            <p>
+                <label>Telefone <br>
+                    <input name="telefone" placeholder="(XX) XXXXX-XXXX" type="tel" required>                  
+                </label>
+            </p>
+            <p>
+                <label>Link do Perfil do Facebook <br>
+                    <input name="perfil" type="url" required>                  
+                </label>
+            </p>
+            <p>
+                <label>Senha <br>
+                    <input name="senha" type="password" minlength="6" maxlength="8" required>                  
+                </label>
+            </p>
+
+            <br>
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
+        </form>
+    </fieldset>
+</body>
+
+</html>

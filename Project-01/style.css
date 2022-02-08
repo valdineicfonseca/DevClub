@@ -1,0 +1,120 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box-square{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    border: 5px solid #d8d2d2;
+    width: 375px;
+    height: 800px;
+    
+    
+}
+
+.img-yoga{
+    display: block;
+   margin: 100px auto 110px auto;
+}
+
+input {
+    width: 321px;
+    height: 46px;
+    background: #F7F7F7;
+    border-radius: 10px;
+    box-shadow: -4px 4px 18px rgba(0, 0, 0, 0.09);
+    border: none;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 21px;
+    padding-left: 20px;
+}
+input::placeholder{
+    font-size: 13;
+    line-height: 15px;
+    color: #858585;
+    padding-left: 19px;
+    font-weight: normal;
+}
+
+.forgot-password{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+
+    margin: 15px 10px 38px 0;
+    display: block;
+    text-align: right;
+    text-decoration: none;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    background: #323232;
+    box-shadow: -4px 4px 18px rgb(0, 0, 0 / 9%);
+    border-radius: 10px;
+    width: 133px;
+    height: 46px;
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    color: #FFFFFF;
+
+}
+
+button:hover{
+    
+    width: 148px;
+    height: 51px;
+    background: #455d9e;
+}
+
+button:active{
+    width: 148px;
+    height: 51px;
+    color: #ffffff;
+    background: #0232aa;
+}
+
+.link-signup{
+    display: block;
+    margin-top: 21px;
+    margin-bottom: 62px;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    color: #969696;
+}
+
+strong{
+    color: #000000;
+}
+
+.or-paragraph {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+.container-footer{
+    text-align: center;
+    margin: 18px auto 80px auto;
+}
+
+.dots-img{
+    text-decoration: none;
+    margin: 0 18px;
+}

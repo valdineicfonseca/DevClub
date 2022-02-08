@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Formulário - Aula CSS</title>
+
+    <link rel="stylesheet" href="./form_style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,600;1,200&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <form action="" method="post" enctype="multipart/form-data">
+        <label class="lbl-names">Nome
+            <input class="components" name="nome" type="text" required>
+        </label>
+
+        <label class="lbl-names">Idade
+            <input class="components" name="idade" inputmode="numeric" type="number" min="12" required>
+        </label>
+
+
+
+        <label class="lbl-names">Data de nascimento
+            <input class="components" name="dt_nascimento" type="date" required>
+        </label>
+
+
+
+        <label class="lbl-names">Onde você possui conta:
+            <div id="social-network">
+                <input name="istagram" type="checkbox">Instagram
+                <input name="facebook" type="checkbox">Facebook
+                <input name="youtube" type="checkbox">Youtube
+            </div>
+        </label>
+
+
+        <label class="lbl-names">Sexo
+            <div>
+                <input name="sexo" type="radio" value="masculino">Masculino
+                <input name="sexo" type="radio" value="feminino">Feminino
+            </div>
+        </label>
+
+
+        <label class="lbl-names">Cor dos Olhos
+            <input name="cor" type="color">
+        </label>
+
+
+        <label class="lbl-names">Biografia
+            <textarea class="components" name="biografia" rows="3" cols="30"></textarea>
+        </label>
+
+
+        <label class="lbl-names">Foto de perfil
+            <input class="components" name="foto" type="file" accept="image/*">
+        </label>
+
+
+        <label class="lbl-names">Telefone
+            <input class="components" name="telefone" placeholder="(XX) XXXXX-XXXX" type="tel" required>
+        </label>
+
+
+        <label class="lbl-names">Link do Perfil do Facebook <br>
+            <input class="components" name="perfil" type="url" required>
+        </label>
+
+
+        <label class="lbl-names">Senha
+            <input class="components" name="senha" type="password" minlength="6" maxlength="8" required>
+        </label>
+
+
+        <div id="box-buttons">
+            <button class="style-buttons" type="reset">
+                Limpar
+            </button>
+
+            <button class="style-buttons" type="submit">
+                Enviar
+            </button>
+        </div>
+    </form>
+
+</body>
+
+</html>
