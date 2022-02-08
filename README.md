@@ -10,6 +10,6 @@
 # Site Dev contabilidade
 ## HTML/JS/CSS
 <br>Acesso: https://valdineicfonseca.github.io/DevClub/Site-Contabil-Responsivo/
-<br>Github: https://github.com/valdineicfonseca/DevClub/tree/master/ite-Contabil-CSS-JS/
+<br>Github: https://github.com/valdineicfonseca/DevClub/tree/main/Site-Contabil-CSS-JS
 
 ![image](https://user-images.githubusercontent.com/20301001/150573255-2db4f6e4-8875-4034-be5d-2aa75922afa8.png)
