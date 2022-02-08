@@ -1,7 +1,3 @@
-Github:
-https://github.com/vieiraroger/crud-flask/
-
-Vídeo:
 watch?v=1o4A6kXHkA0
 
 Figma: 
