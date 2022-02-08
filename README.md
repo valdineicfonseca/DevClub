@@ -3,7 +3,7 @@
 ## Conversor de moedas
 <br> HTML/JavaScript/CSS (Consumindo API; Preço: Dolar / Euro em tempo real).
 <br>Acesso: https://valdineicfonseca.github.io/DevClub/MSONE/mission-one/
-<br>Github: https://github.com/valdineicfonseca/DevClub/tree/master/MSONE/mission-one
+<br>Github: https://github.com/valdineicfonseca/DevClub/tree/main/MSONE/mission-one
 
 ![image](https://user-images.githubusercontent.com/20301001/151188326-af56c656-56f4-48c9-8000-25dfcacaad39.png)
 
