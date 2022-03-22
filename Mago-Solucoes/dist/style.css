@@ -16,7 +16,7 @@ body {
   align-items: center;
   height: 100vh;
   position: relative;
-  background-color: #1e1f26;
+  background-color: #2f3036;
   text-align: center;
   padding: 0 2em;
 }
@@ -31,6 +31,8 @@ body {
   color: #03dac6;
   transition: all 0.3s ease;
   z-index: 3;
+  
+
 }
 h1:hover {
   transform: translate3d(0, -10px, 22px);
@@ -117,15 +119,28 @@ a {
   background: #03dac6;
   transition: left 0.3s ease;
 }
+
+.background-img{
+  
+  background-size: 100vw;
+}
+
 .background {
+  background-image: url(../img/fundo-1.png);
+  background-size: cover;
   position: absolute;
-  height: 100vh;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: auto;
+  
 }
+
+.box-menubar{
+  display: none;
+}
+
 @media (min-width: 800px) {
   .nav h1,
   .slider h1 {
@@ -139,26 +154,47 @@ a {
 
   .nav-tab {
     font-size: 1.5vw;
+    
   }
 }
 
-@media screen only (min-width: 360px) {
-  .nav h1,
-  .slider h1 {
-    font-size: 8vw;
+@media only screen and (max-width: 720px) {
+  .box-menubar{
+    display: inline-block;
+    text-decoration: none;
+    
+    
+    
+ }
+  
+  h3.span {
+    font-size: 5vw;
+  }
+
+  .nav-container {
+    display: none;
+  }
+  .nav h1,  .slider h1 {
+    font-size: 12vw;
   }
 
   .nav h2,
   .slider h2 {
-    font-size: 2vw;
+    padding-top: 7px;
+    font-size: 7vw;
     letter-spacing: 0.2vw;
   }
 
   .nav-tab {
-    font-size: 1.2vw;
+    --font-size: 1.2vw;
+    display: none;
+  }
+  .a:active{
+    
   }
 }
-.background {
+.background_reserva {
+  
   position: absolute;
   height: 100vh;
   top: 0;
@@ -242,4 +278,13 @@ a {
 }
 .loader span:nth-child(22) {
   -webkit-animation-delay: 2.1s;
+}
+
+.footer_page{
+  color: #03dac6;
+  background-color: #1e1f26;
+  font-size: 15px;
+  padding-left: 10px;
+  text-align: center;
+
 }
