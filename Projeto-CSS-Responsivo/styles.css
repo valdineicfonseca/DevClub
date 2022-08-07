@@ -48,8 +48,8 @@ p {
 img {
     position: relative;
     top: 20%;
-    right: 138px;
-    width-max: 70%;
+    right: 130px;
+    width: 70%;
 
 
 }
@@ -117,7 +117,7 @@ a:hover{
     img{
         position: static;
         max-width: 70%;
-        pad
+        
     }
 
     header{
@@ -145,6 +145,8 @@ a:hover{
     }
 }
 
-@media screen and (max-width: 1000px) {
-
+@media screen and (max-width: 330px) {
+    .container-left{
+        height: 70%;
+    }
 }
