@@ -1,0 +1,19 @@
+// condicional if se 
+
+const age = 17
+
+if(age >= 18){
+    console.log('Acesso ao se entrou')
+} else {
+    console.log('senao executou ')
+}
+
+const temperature = 36
+
+if (temperature >= 36 && temperature <=39){
+    console.log('Temperatura normal')
+}else if(temperature > 39){
+    console.log('Febre detectada')
+}else {
+    console.log('Temperatura baixa')
+}

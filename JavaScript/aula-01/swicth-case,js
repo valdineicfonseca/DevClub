@@ -1,0 +1,22 @@
+// switch case
+
+const temperature = 36
+
+switch (temperature) {
+    
+    case 30:
+        console.log('Temperature 30')
+        break;
+    case 33:
+        console.log('Temperature 33')
+    break;
+    case 36:
+        console.log('Temperature 36')
+    break;
+
+    
+    default:
+        console.log('Temperature nao encontrada')
+        break;
+
+}
