@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Money converter </title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&family=Roboto:wght@100;300;400&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="./img/favicon.ico" />
+    <link rel="manifest" href="./manifest.json">
+
+
+</head>
+
+<body>
+    <div id="cabecalho">
+
+
+        <h1> Money converter 1</h1>
+        <p id="contador">
+            <img src='https://megacontador.com.br/img-Nq5AAHnOtcX8lLXE-56.gif' height="20" width="30" border='0'
+                alt='Contador de visitantes'>
+        </p>
+        <p id="DolarEuroHoje">Dolar hoje: $1.50 | Euro Hoje: €2.30</p>
+
+    </div>
+
+    <div id="caixa-raiz">
+        <div id="caixa-principal">
+            <p class="paragrafo"> Converter <strong> de </strong></p>
+
+            <select name="" id="select-moedas-01" class="select">
+
+                <option value="Real">R$ Real brasileiro</option>
+                <option value="Dolar" selected>U$ Dolar Americano</option>
+                <option value="Euro">€ Euro</option>
+
+            </select>
+
+            <p class="paragrafo">Converter <strong> para </strong></p>
+            <select name="" id="select-moedas-02" class="select">
+
+                <option value="Dolar">U$ Dolar Americano</option>
+                <option value="Real" selected>R$ Real brasileiro</option>
+                <option value="Euro">€ Euro</option>
+
+            </select>
+
+            <p class="paragrafo" <strong>Valor</strong></p>
+            <input id="input-valor" type="number" placeholder="Digite um valor. Ex: R$ 1000">
+
+            <button id="botao">
+                Converter
+            </button>
+            <div id="caixa-interna">
+                <div class="caixa-menor">
+                    <img id="bandeira-moeda-02" src="./img/eua.png" alt="">
+                    <p class="paragrafo" id="texto-nome-moeda-02">Dolar Americano</p>
+                    <p class="paragrafo-negrito" id="texto-moeda-01"><strong>R$ 10.0000</strong></p>
+                </div>
+
+
+                <img id="seta" src="./img/seta.png" alt="">
+
+                <div class="caixa-menor">
+                    <img id="bandeira-moeda-01" src="./img/br.png" alt="">
+                    <p class="paragrafo" id="texto-nome-moeda-01">Real</p>
+                    <p class="paragrafo-negrito" id="texto-moeda-02"><strong>US$ 2.000</strong></p>
+                </div>
+
+
+
+            </div>
+
+        </div>
+        <div id="caixa-rodape">
+            Dev: Valdinei C. Fonseca © DevClub 2022 </div>
+    </div>
+
+</body>
+<script src="./js/script.js"></script>
+
+</html>
