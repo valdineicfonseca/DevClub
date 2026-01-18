@@ -1,0 +1,28 @@
+{
+  "name": "Dolar/Euro Hoje",
+  "short_name": "Dolar/Euro Hoje",
+  "description": "Cotação do dolar e euro",
+  "start_url": "./index.html",
+  "scope": ".",
+  "background_color": "#EEE",
+  "theme_color": "#4A148C",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "dir": "ltr",
+  "lang": "en-US",
+  "related_applications": [
+    {
+       "platform": "play",
+       "url": "https://play.google.com/.../app_name",
+       "id": "com.example.app"
+    }
+   ],
+  "icons": [
+    {
+      "src": "img/money.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    }
+    
+   ]
+  }
